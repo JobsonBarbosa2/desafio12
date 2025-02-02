@@ -65,8 +65,21 @@ section.normal{
     color:rgb(0, 0, 0);
 }
 section.imagem{
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(253, 249, 249, 0);
     color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-attachment: fixed;
+}
+section#img01{
+    background-image: url('../background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../background002.jpg');
+    
+    background-size: cover;
 }
 footer{
     background-color: black;
